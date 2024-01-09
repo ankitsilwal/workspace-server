@@ -8,7 +8,7 @@ import { WorkSpaceService } from "./services/workspace.service";
   imports: [
     MongooseModule.forFeature([
       { name: WorkSpace.name, schema: WorkSpaceSchema },
-    ]),
+    ])
   ],
   controllers: [WorkSpaceController],
   providers: [WorkSpaceService],

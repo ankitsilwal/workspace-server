@@ -10,6 +10,15 @@ export class WorkSpace {
 
   @Prop()
   registration_key: string;
+
+  @Prop()
+  password:string;
+
+  @Prop()
+  isActive:boolean;
+
+  @Prop()
+  your_name:string;
 }
 
 export const WorkSpaceSchema = SchemaFactory.createForClass(WorkSpace);
